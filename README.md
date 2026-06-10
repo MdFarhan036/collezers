@@ -4,24 +4,21 @@ Search engine for Online and Distance Education.
 
 ## Modules
 
-- Backend API
 - Admin Panel
+- Backend API
 - Student Website
 
 ## Tech Stack
 
-Backend:
+### Backend
 - Node.js
-- Express
+- Express.js
 - MySQL
 
-Admin:
+### Admin
 - React
 - Vite
 
-Website:
+### Website
 - React
 - Vite
-
-Search:
-- Meilisearch / Elasticsearch
