@@ -1,0 +1,173 @@
+.footer {
+    background: #4b0202;
+    padding-bottom: 50px;
+}
+
+.footer-area {
+    padding-top: 50px;
+}
+
+
+
+.footer-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.grid {
+    display: grid;
+    max-width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer-widget{
+    margin-top: 20px;
+
+  }
+.footer-widget p {
+    color: #a2a2a2;
+    margin-bottom: 30px
+}
+
+.footer-widget h3 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 20px
+}
+
+.footer-widget ul li {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.footer-widget ul li:last-child {
+    margin-bottom: 0
+}
+
+.footer-widget ul li a {
+    color: #a2a2a2;
+    text-decoration: none
+}
+
+.footer-widget ul li a:hover {
+    color: #fff
+}
+
+.contact-footer-subscribe input {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+    padding: 0 20px 0 20px;
+    color: #a5a5a5
+}
+
+.contact-footer-subscribe .newsletter-button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #a2a2a2;
+
+
+}
+
+.contact-footer-subscribe .field::before {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+
+.contact-footer-subscribe {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: auto;
+    justify-content: center;
+
+}
+
+.footer-icon {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+
+.footer-icon li {
+    color: #a8adb7;
+    background: #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 20px;
+}
+
+.footer-icon li:hover {
+    background: #2467ec;
+    color: #fff
+}
+
+
+.section-subtitle,
+.section-title {
+    color: #fff;
+}
+
+@media (max-width: 720px) {
+
+    .contact-footer-subscribe {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .footer-icon li {
+        color: #a8adb7;
+        background: #fff;
+
+        line-height: auto;
+
+    }
+
+
+}
+.sign-box {
+    padding: 30px;
+  }
+  
+  .sign-box h3 {
+    display: flex;
+  }
+
+.footer-subtitle {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.footer-title {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+
+    color: #fff;
+
+}
+.footer-widget i {
+    padding-right: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    footer .grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+}  

@@ -1,0 +1,71 @@
+#topbar .row {
+    background: #4b0202;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+#topbar {
+    width: 100%;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+.topbar-item {
+    font-weight: 400;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #f9f2ec;
+}
+
+#topbar ul li {
+    display: inline-block;
+
+}
+
+.left-info li {
+    padding: 10px 20px;
+    font-family: sans-serif;
+
+}
+.left-info li .fa{
+    padding: 10px 20px;
+
+}
+
+
+.topbar-item i {
+    margin-right: 12px;
+
+    color: #f9f2ec;
+    justify-content: space-between;
+
+}
+
+#topbar ul.right-icons {
+    float: right;
+}
+
+#topbar ul.right-icon li {
+    margin-right: -4px;
+    width: 50px;
+    text-align: center;
+}
+
+
+
+#topbar ul.right-icons li link {
+    transition: all 0.3s;
+}
+
+@media (max-width: 720px) {
+    .row {
+        flex-direction: column;
+        width: 100%;
+    }
+}

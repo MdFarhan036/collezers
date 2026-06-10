@@ -1,0 +1,86 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+  background: #f0f5f5 ;
+}
+link{
+  text-decoration: none;
+}
+
+.feature-subtitle{
+  text-align: center;
+  padding: 5px 0;
+  color: blueviolet;
+}
+
+
+/* Container for colleges */
+.comparison-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.comparison-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.comparison-title {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Styles for individual college cards */
+.college {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* College image */
+.college-details {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+/* College image */
+.college-image {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+/* College information */
+.college-details h2 {
+  margin-top: 10px;
+}
+
+.college-details p {
+  margin-bottom: 5px;
+}

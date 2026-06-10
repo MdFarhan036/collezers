@@ -1,0 +1,16 @@
+.feature-nodal{
+    width: 800px;
+    font-size: 14px;
+    text-align: justify;
+    padding: 5px;
+}
+.feature-nodal li{
+    padding:10px 0;
+    scroll-behavior: smooth;
+    list-style: disc;
+    overflow: hidden;
+}
+.feature-nodal h2{
+    font-weight: bold;
+    font-size: 24px;
+}

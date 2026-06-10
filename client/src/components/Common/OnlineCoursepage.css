@@ -1,0 +1,23 @@
+table {
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+  .text-center{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0;
+  }
+.exam-pattern td,
+th {
+  width: 500px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 10px;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}

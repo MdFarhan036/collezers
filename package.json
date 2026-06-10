@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "country-state-city": "^3.2.1",
+    "lucide-react": "^0.364.0",
+    "react-multi-carousel": "^2.8.5",
+    "typescript": "^5.4.4"
+  }
+}
